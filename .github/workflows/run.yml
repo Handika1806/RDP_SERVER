@@ -15,7 +15,7 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/Handika1806/RDP_SERVER/blob/main/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/Handika1806/RDP_SERVER/blob/main/wallpaper.bmp -OutFile wallpaper.bmp
         Invoke-WebRequest https://raw.githubusercontent.com/Handika1806/RDP_SERVER/blob/main/wallpaper.bat -OutFile wallpaper.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/Handika1806/Free-VirtualDesktop/blob/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Handika1806/RDP_SERVER/blob/main/loop.bat -OutFile loop.bat
     - name: Extracting Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect To Account Ngrok.
