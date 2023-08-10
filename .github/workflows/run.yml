@@ -13,9 +13,9 @@ jobs:
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
         Invoke-WebRequest https://raw.githubusercontent.com/Handika1806/RDP_SERVER/blob/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/RavensVenix//virtual/wallpaper.bmp -OutFile wallpaper.bmp
-        Invoke-WebRequest https://raw.githubusercontent.com/RavensVenix/Free-VirtualDesktop/virtual/wallpaper.bat -OutFile wallpaper.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/RavensVenix/Free-VirtualDesktop/virtual/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Handika1806/RDP_SERVER/blob/main/wallpaper.bmp -OutFile wallpaper.bmp
+        Invoke-WebRequest https://raw.githubusercontent.com/Handika1806/RDP_SERVER/blob/main/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Handika1806/Free-VirtualDesktop/blob/main/loop.bat -OutFile loop.bat
     - name: Extracting Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect To Account Ngrok.
