@@ -44,10 +44,7 @@ jobs:
  
       run: .\ngrok\ngrok.exe tcp 3389
  
+
+Username:   Administrator
  
------------------------------------------only copy above this line-----------------------------------------------------------------------
-Auth name:  NGROK_AUTH_TOKEN
- 
-Username:   runneradmin
- 
-Pass:      P@ssw0rd!
+Pass:      DikdukServer23
